@@ -1,11 +1,10 @@
 import { useReveal } from '../hooks/useReveal'
 const images = [
-    "/images/lpm1.jpg",
-    "/images/lpm2.jpg",,
-    "/images/lpm3.jpg",,
-    "/images/lpm4.jpg",,
+    "/images/lpm2.jpg",
+    "/images/lpm3.jpg",
+    "/images/lpm4.jpg",
   ];
-const randomImage = images[Math.floor(Math.random() * 4)];
+const randomImage = images[Math.floor(Math.random() * 3)];
 
 const Hero = () => {
   const { ref, isVisible } = useReveal()
