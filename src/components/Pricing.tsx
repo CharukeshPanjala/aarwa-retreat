@@ -19,7 +19,7 @@ export default function Pricing() {
         <span className="text-retreat-accent font-medium">
           ₹11,000
         </span>{" "}
-        per day
+        per night
       </p>
 
       <p className="text-retreat-text/60 mb-8">

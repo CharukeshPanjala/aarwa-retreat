@@ -1,4 +1,6 @@
 import { useReveal } from '../hooks/useReveal'
+import { CONTACT_LINKS } from '../constants/ contact'
+
 const images = [
     "/images/lpm2.jpg",
     "/images/lpm3.jpg",
@@ -29,9 +31,14 @@ const Hero = () => {
         <p className="font-body text-lg md:text-xl mb-8 max-w-2xl mx-auto">
           Aarwa Retreat is a peaceful getaway for stays, celebrations, and meaningful gatherings, blending open spaces with a calm, natural atmosphere.
         </p>
-        <button className="bg-retreat-accent hover:bg-retreat-accentSoft px-8 py-4 rounded-full font-body font-medium text-white transition-colors duration-300">
-          Discover Your Retreat
-        </button>
+        <a
+          href={CONTACT_LINKS.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-retreat-accent hover:bg-retreat-accentSoft px-8 py-4 rounded-full font-body font-medium text-white transition-colors duration-300 inline-block"
+        >
+          Check Availability on WhatsApp
+        </a>
       </div>
     </section>
   )
