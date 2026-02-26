@@ -1,7 +1,7 @@
 import { useReveal } from '../hooks/useReveal'
 
 export default function Pricing() {
-  const { ref, isVisible } = useReveal() 
+  const { ref} = useReveal() 
   return (
     <section id='pricing' className="py-24 px-6 bg-retreat-surface text-center">
     < div 
